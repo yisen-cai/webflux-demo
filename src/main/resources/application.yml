@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      database: db_tutorial
+      host: yisen614.top
+      username: test
+      password: secret
+      port: 27017
+      repositories:
+        type: auto
