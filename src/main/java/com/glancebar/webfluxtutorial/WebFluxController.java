@@ -13,9 +13,9 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
 @RestController
-public class StringController {
+public class WebFluxController {
 
-    private final InternalLogger log = Slf4JLoggerFactory.getInstance(StringController.class);
+    private final InternalLogger log = Slf4JLoggerFactory.getInstance(WebFluxController.class);
 
     private String createStr() {
         try {

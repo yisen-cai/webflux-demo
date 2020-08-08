@@ -9,3 +9,6 @@ spring:
       port: 27017
       repositories:
         type: auto
+  application:
+    name: WebFluxTutorial-1.0
+
